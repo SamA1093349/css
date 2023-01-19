@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <center>
+        <div class="title">
+            <div class="logo">
+                <img src="../photo/logo.png" alt="">
+            </div>
+            <div class="list-group">
+                <a href="" id="a1" style="color:#F9C745;">首頁</a>
+                <a href="" id="a2" class="change">服務介紹</a>
+                <a href="" id="a3" class="change">設計作品</a>
+                <a href="" id="a4">領養專區</a>
+                <div id="a5-btn">
+                    <a href="" id="a5">毛孩似顏繪</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="home">
+                <img src="../photo/home.png" alt="">
+            </div>
+
+            <!-- <div class="space" style="height: 0px;"></div> -->
+
+            <div class="rectange_3">
+                <img src="../photo/home01.png" alt="">
+                <div class="text">
+                    <h1>Service</h1>
+                    <h2>您出錢 我出力 一起助浪浪</h2>
+                    <p>我們是一群貓奴才狗奴才， 希望能透過自己小小的力量幫助浪貓浪狗們， 可我們沒什麼錢錢，但我們喜歡畫畫、喜愛貓狗， 於是想到個兩全其美的好法子！ 如果您購買我們的寵物似顏繪服務，
+                        我們將會把設計費100%全數捐給浪浪們！ 您出錢，我出力，合作無間讓浪浪有飯吃，讚啦！</p>
+                </div>
+            </div>
+            <div class="rectange_4">
+                <div class="title01"><img src="../photo/title01.png" alt=""></div>
+                <div class="img-group">
+                    <img src="../photo/dog05.png" alt="" id="p1">
+                    <img src="../photo/dog07.png" alt="" id="p2">
+                    <img src="../photo/dog06.png" alt="" id="p3">
+                    <img src="../photo/Michael.png" alt="" id="p4">
+                </div>
+                <div class="btn-group">
+                    <div class="btn_outline">
+                        <button>查看更多作品</button>
+                    </div>
+                    <div class="btn_fill">
+                        <button>客製毛孩似顏繪</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rectange_5">
+                <div class="title02">
+                    <img src="../photo/title02.png" alt="">
+                </div>
+                <p>這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
+                <div class="dog-card-group">
+                    <div class="dog-card">
+                        <div class="text">
+                            <img src="../photo/dog01.png" alt="">
+                            <h1>等家中-華仔</h1>
+                            <p>目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
+                        </div>
+                    </div>
+                    <div class="dog-card">
+                        <div class="text">
+                            <img src="../photo/04.png" alt="">
+                            <h1>等家中-華仔</h1>
+                            <p>小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
+                        </div>
+                    </div>
+                    <div class="dog-card">
+                        <div class="text">
+                            <img src="../photo/08.png" alt="">
+                            <h1>等家中-Snow</h1>
+                            <p>看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").mouseenter(function(){
+                $(this).addClass("change_class")
+            })
+            $("a").mouseleave(function(){
+                $(this).removeClass("change_class")
+            })
+        })
+    </script>
+</body>
+
+</html>
